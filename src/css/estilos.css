@@ -1,14 +1,17 @@
 body {
     font-family: 'Poppins', sans-serif;
-    max-width: 1280;
+    max-width: 1280px;
     margin: 0 auto;
-    background-color: #5e5b5bad;
+    background-image: url("/src/Imagens/fundo5.jpg");
+    
+    background-size: cover;
     color: #020202;
 }
 
 body.modo-escuro {
     background-color: #212121;
     color: rgb(227, 232, 236);
+    background-image: url("/src/Imagens/fundo-noite.jpg");
 }
 
 header {
